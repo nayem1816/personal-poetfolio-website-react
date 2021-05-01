@@ -7,14 +7,17 @@ import Blog from "./components/Blog/Blog";
 import Project from "./components/Project/Project";
 import Contact from "./components/Contact/Contact";
 import Header from "./components/Header/Header";
+import MouseParticles from "react-mouse-particles";
 
 function App() {
   return (
     <Router>
       <div className="main-container">
+        <MouseParticles g={1} color="random" cull="col,image-wrapper" />
         <div className="row p-0 m-0">
           <div className="col-2 p-0">
             <Header></Header>
+            {/* <MobileNavbar></MobileNavbar> */}
           </div>
           <div className="col-10">
             <Switch>
