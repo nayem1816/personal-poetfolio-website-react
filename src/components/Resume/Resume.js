@@ -13,7 +13,7 @@ const Resume = () => {
   return (
     <div className="resume-details p-5">
       <div className="row container">
-        <h1>My Skills</h1>
+        {/* <h1>My Skills</h1> */}
         {skills.map((skill) => (
           <div className="col-md-6 col-sm-12">
             <div className="p-3">

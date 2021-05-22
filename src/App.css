@@ -4,3 +4,12 @@
   height: 100%;
   font-family: 'Open Sans', sans-serif;
 }
+
+@media screen and (max-width: 720px) and (min-width: 100px) {
+  .mouseParticles{
+    display: none;
+  }
+  .desktop-navbar{
+    display:none;
+  }
+}

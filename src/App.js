@@ -13,9 +13,11 @@ function App() {
   return (
     <Router>
       <div className="main-container">
-        <MouseParticles g={1} color="random" cull="col,image-wrapper" />
+        <div className="mouseParticles d-none">
+          <MouseParticles g={1} color="random" cull="col,image-wrapper" />
+        </div>
         <div className="row p-0 m-0">
-          <div className="col-2 p-0">
+          <div className="col-2 p-0 desktop-navbar">
             <Header></Header>
             {/* <MobileNavbar></MobileNavbar> */}
           </div>

@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
 import ContactFrom from "../ContactFrom/ContactFrom";
 import "./Contact.css";
